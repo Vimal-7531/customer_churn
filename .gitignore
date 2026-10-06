@@ -1,0 +1,219 @@
+# ============================================================
+# Python
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python caches / testing
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Python packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+
+# ============================================================
+# Environment Variables / Secrets
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+
+
+# ============================================================
+# React / Node / Vite
+# ============================================================
+
+node_modules/
+
+dist/
+.vite/
+.cache/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+.npm/
+.yarn/
+
+
+# ============================================================
+# IDE / Editor
+# ============================================================
+
+.vscode/
+.idea/
+
+*.swp
+*.swo
+
+
+# ============================================================
+# Operating System Files
+# ============================================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ============================================================
+# Logs
+# ============================================================
+
+*.log
+
+logs/
+log/
+
+
+# ============================================================
+# Jupyter Notebook
+# ============================================================
+
+.ipynb_checkpoints/
+
+
+# ============================================================
+# Local Databases
+# ============================================================
+
+*.db
+*.sqlite
+*.sqlite3
+
+
+# ============================================================
+# Spark / Hadoop Temporary Files
+# ============================================================
+
+.sparkStaging/
+metastore_db/
+derby.log
+
+warehouse/
+
+_SUCCESS
+*.crc
+
+
+# ============================================================
+# Java
+# ============================================================
+
+*.class
+*.jar
+
+target/
+out/
+
+
+# ============================================================
+# Temporary Files
+# ============================================================
+
+*.tmp
+*.temp
+*.bak
+*.old
+
+~$*
+*.orig
+
+
+# ============================================================
+# Windows / PowerShell
+# ============================================================
+
+*.stackdump
+
+
+# ============================================================
+# ML / Data Science Cache
+# ============================================================
+
+.mlflow/
+mlruns/
+
+
+# ============================================================
+# IMPORTANT PROJECT DECISIONS
+# ============================================================
+
+# Keep trained ML models in GitHub.
+# Therefore DO NOT ignore *.pkl
+#
+# Examples that will remain tracked:
+# phase6/models/tree_churn.pkl
+# phase6/models/logistic_churn.pkl
+# phase6/models/api_churn.pkl
+# phase6/models/api_feature_columns.pkl
+
+
+# ============================================================
+# Dataset handling
+# ============================================================
+
+# Keep small project CSV files if they are required to run
+# or demonstrate the project.
+#
+# If large/raw datasets should NOT be uploaded later,
+# add their specific directories here rather than ignoring
+# every CSV file.
+
+
+# ============================================================
+# Frontend environment files
+# ============================================================
+
+customer-dashboard/.env
+customer-dashboard/.env.local
+customer-dashboard/.env.development.local
+customer-dashboard/.env.production.local
+
+
+# ============================================================
+# Backend environment files
+# ============================================================
+
+phase1/.env
+phase2/.env
+phase3/.env
+phase5/.env
+phase6/.env

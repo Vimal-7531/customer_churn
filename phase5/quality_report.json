@@ -1,0 +1,62 @@
+[
+    {
+        "check": "Null rate - monthly_charges",
+        "status": "PASS",
+        "value_found": 0.0,
+        "threshold": 0,
+        "severity": "CRITICAL"
+    },
+    {
+        "check": "Null rate - tenure",
+        "status": "PASS",
+        "value_found": 0.0,
+        "threshold": 0,
+        "severity": "CRITICAL"
+    },
+    {
+        "check": "Value range - tenure",
+        "status": "PASS",
+        "value_found": 0,
+        "threshold": "0 to 100",
+        "severity": "CRITICAL"
+    },
+    {
+        "check": "Value range - monthly_charges",
+        "status": "PASS",
+        "value_found": 0,
+        "threshold": "0.01 to inf",
+        "severity": "CRITICAL"
+    },
+    {
+        "check": "Allowed values - contract",
+        "status": "PASS",
+        "value_found": 0,
+        "threshold": [
+            "Two year",
+            "Month-to-month",
+            "One year"
+        ],
+        "severity": "CRITICAL"
+    },
+    {
+        "check": "Row count",
+        "status": "PASS",
+        "value_found": 7043,
+        "threshold": 7000,
+        "severity": "CRITICAL"
+    },
+    {
+        "check": "Duplicate check - customer_id",
+        "status": "PASS",
+        "value_found": 0,
+        "threshold": 0,
+        "severity": "CRITICAL"
+    },
+    {
+        "check": "Churn distribution",
+        "status": "PASS",
+        "value_found": 0,
+        "threshold": "Only 0 and 1",
+        "severity": "CRITICAL"
+    }
+]
